@@ -30,7 +30,7 @@ var getData=(req,res)=>{
 		        let obj=t[item.dateTime.getUTCDate()+'/'+(item.dateTime.getUTCMonth()+1)+'/'+item.dateTime.getUTCFullYear()]=t[item.dateTime.getUTCDate()+'/'+(item.dateTime.getUTCMonth()+1)+'/'+item.dateTime.getUTCFullYear()]||{count:0, totalTemperature:0, totalHumidity:0};
 		        obj.count++;
 		        obj.totalTemperature+=item.temperature;
-		        obj.totalHumidity+=(item.humi/5);
+		        obj.totalHumidity+=(item.humidity/5);
             });
 	        let result=Object.entries(t).map(function(entry){
 		        return {date: entry[0], temperature: entry[1].totalTemperature/entry[1].count, humidity: entry[1].totalHumidity/entry[1].count};
