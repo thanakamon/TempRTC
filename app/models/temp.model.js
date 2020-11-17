@@ -11,7 +11,7 @@ var tempSchema=new Schema({
     minute: Number
 });
 
-const temp=mongoose.model('temp',tempSchema);
+const temp_rtc=mongoose.model('temp_rct',tempSchema);
 module.exports={
-    temp
+    temp_rct
 }
