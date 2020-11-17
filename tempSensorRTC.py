@@ -2,7 +2,7 @@ import sys
 import Adafruit_DHT
 import busio
 import adafruit_ds3231
-import requests
+import requestsp
 
 from board import *
 
