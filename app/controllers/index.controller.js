@@ -14,6 +14,7 @@ var addData=(req,res)=>{
 var getData=(req,res)=>{
     temp.find({},(err,data)=>{
         if(!err){
+            console.log(data);
             let detail=new Array();
             let t={};
             data.forEach((item,index)=>{
