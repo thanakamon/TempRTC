@@ -3,10 +3,10 @@
   "description": "",
   "main": "index.js",
   "authors": [
-    "Thanapon Yalan <thanaponyalan@gmail.com>"
+    "Thanakamon Intharasuriyawong <thanakamonmay@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/thanaponyalan/temp_rtc",
+  "homepage": "https://github.com/thanakamon/TempRTC",
   "ignore": [
     "**/.*",
     "node_modules",

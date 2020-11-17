@@ -1,9 +1,9 @@
 var mongoose=require('mongoose');
 var Schema=mongoose.Schema;
 
-var tempSensorRTCSchema=new Schema({
-    temperature: Number,
-    humidity: Number,
+var tempSchema=new Schema({
+    temp: Number,
+    humi: Number,
     year: Number,
     month: Number,
     day: Number,
@@ -11,7 +11,7 @@ var tempSensorRTCSchema=new Schema({
     minute: Number
 });
 
-const temp_rtc=mongoose.model('temp_rtc',tempSensorRTCSchema);
+const temp=mongoose.model('temp',tempSchema);
 module.exports={
-    temp_rtc
+    temp
 }
