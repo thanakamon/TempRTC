@@ -2,8 +2,8 @@ var mongoose=require('mongoose');
 var Schema=mongoose.Schema;
 
 var tempSchema=new Schema({
-    temp: Number,
-    humi: Number,
+    temperature: Number,
+    humidity: Number,
     year: Number,
     month: Number,
     day: Number,
