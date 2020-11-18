@@ -75,9 +75,6 @@ requests.post('http://localhost:3009/addData',tempSensorRTC)
         });
         ```
 
-## By 
-- jarudat chaikuad 60030014
-- Thanakamon Inntharasuriyawong 60030031
 
 
 
